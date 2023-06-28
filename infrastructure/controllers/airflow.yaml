@@ -1,0 +1,18 @@
+---
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: airflow
+  namespace: airflow
+  annotations:
+    fluxcd.io/automated: "false"
+    fluxcd.io/tag.chart-image: semver:~4.0
+spec:
+  releaseName: airflow
+  chart:
+    repository: https://charts.bitnami.com/bitnami
+    name: airflow
+    version: 8.0.9
+  valuesFrom:
+  - configMapKeyRef:
+      name: airflow-values    
