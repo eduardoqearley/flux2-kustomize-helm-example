@@ -6,6 +6,15 @@ metadata:
   labels:
     toolkit.fluxcd.io/tenant: sre-team
 ---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: HelmRepository
+metadata:
+  name: cert-manager
+  namespace: cert-manager
+spec:
+  interval: 24h
+  url: https://charts.jetstack.io
+---
 ---
 apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
