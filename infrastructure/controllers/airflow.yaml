@@ -29,7 +29,7 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: airflow
-        namespace: cert-manager
+        namespace: airflow
       interval: 12h
   values:
     installCRDs: true
