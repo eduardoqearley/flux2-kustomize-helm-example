@@ -17,9 +17,14 @@ spec:
 ---
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
+kind: HelmRelease
 metadata:
-  name: cert-manager
-  namespace: cert-manager
+  name: airflow
+  namespace: airflow
+  annotations:
+    fluxcd.io/automated: "false"
+    fluxcd.io/tag.chart-image: semver:~4.0
+
 spec:
   interval: 30m
   chart:
