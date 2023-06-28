@@ -6,7 +6,7 @@ metadata:
 spec:
   acme:
     # Replace the email address with your own contact email
-    email: edwardearley@users.noreply.github.com
+    email: edwardearley@gmail.com
     # The server is replaced in /clusters/production/infrastructure.yaml
     server: https://acme-staging-v02.api.letsencrypt.org/directory
     privateKeySecretRef:
