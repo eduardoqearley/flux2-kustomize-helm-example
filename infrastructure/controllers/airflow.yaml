@@ -1,4 +1,12 @@
 ---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: cert-manager
+  labels:
+    toolkit.fluxcd.io/tenant: sre-team
+---
+---
 apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
