@@ -35,7 +35,6 @@ spec:
     installCRDs: true
 
 
-apiVersion: helm.fluxcd.io/v1
 spec:
   releaseName: airflow
   chart:
