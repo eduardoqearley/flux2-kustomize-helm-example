@@ -28,7 +28,7 @@ spec:
       version: "1.x"
       sourceRef:
         kind: HelmRepository
-        name: cert-manager
+        name: airflow
         namespace: cert-manager
       interval: 12h
   values:
