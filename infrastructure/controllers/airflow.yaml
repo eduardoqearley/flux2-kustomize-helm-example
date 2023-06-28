@@ -36,13 +36,6 @@ spec:
 
 
 apiVersion: helm.fluxcd.io/v1
-kind: HelmRelease
-metadata:
-  name: airflow
-  namespace: airflow
-  annotations:
-    fluxcd.io/automated: "false"
-    fluxcd.io/tag.chart-image: semver:~4.0
 spec:
   releaseName: airflow
   chart:
