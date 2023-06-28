@@ -15,7 +15,6 @@ spec:
   interval: 24h
   url: https://airflow.apache.org
 ---
----
 apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
