@@ -4,4 +4,4 @@ resources:
   - cert-manager.yaml
   - ingress-nginx.yaml
   - weave-gitops.yaml
-  - airflow.yaml
+  # - airflow.yaml
