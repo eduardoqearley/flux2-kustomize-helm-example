@@ -19,6 +19,7 @@ kind: HelmRelease
 metadata: 
   name: airflow
   namespace: airflow  
+
   releaseName: airflow
   chart:
     spec:
