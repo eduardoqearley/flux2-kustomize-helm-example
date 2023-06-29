@@ -22,8 +22,8 @@ metadata:
 spec:
   releaseName: apache
   targetNamespace: apache
-  chart:
   interval: 50m
+    chart:
     spec:
       chart: apache
       sourceRef:
