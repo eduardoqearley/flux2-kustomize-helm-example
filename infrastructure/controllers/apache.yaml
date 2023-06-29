@@ -28,7 +28,7 @@ spec:
       chart: apache
       sourceRef:
         kind: HelmRepository
-        name: podinfo  
+        name: apache  
   # releaseName: apache
   #     sourceRef:
   #       kind: HelmRepository
