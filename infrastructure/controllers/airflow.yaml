@@ -34,11 +34,6 @@ spec:
 #     installCRDs: true
 
 
-apiVersion: helm.toolkit.fluxcd.io/v2beta1
-kind: HelmRelease
-metadata:
-  name: podinfo
-  namespace: podinfo
 spec:
   releaseName: podinfo
   chart:
