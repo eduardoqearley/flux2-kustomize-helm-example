@@ -49,7 +49,7 @@ spec:
   # Default values
   # https://github.com/stefanprodan/podinfo/blob/master/charts/podinfo/values.yaml
   values:
-installCRDs: true    
+    installCRDs: true    
     redis:
       enabled: true
       repository: public.ecr.aws/docker/library/redis
