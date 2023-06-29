@@ -10,9 +10,6 @@ kind: HelmRelease
 metadata:
   name: apache
   namespace: apache
-  # annotations:
-  #   fluxcd.io/automated: "false"
-  #   fluxcd.io/tag.chart-image: semver:~4.0
 spec:
   releaseName: apache
   chart:
