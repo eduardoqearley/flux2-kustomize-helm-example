@@ -32,9 +32,7 @@ metadata:
   # https://github.com/stefanprodan/podinfo/blob/master/charts/podinfo/values.yaml
   values:
     installCRDs: true    
-    # ingress:
-    #   enabled: true
-    #   className: nginx
+
 # spec:
 #   interval: 30m
 #   chart:
