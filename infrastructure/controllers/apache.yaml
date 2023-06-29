@@ -23,6 +23,9 @@ metadata:
   namespace: apache
 spec:
   releaseName: apache
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo  
   chart:
     repository: oci://registry-1.docker.io/bitnamicharts/apache
     name: apache
