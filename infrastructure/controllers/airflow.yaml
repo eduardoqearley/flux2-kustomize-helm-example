@@ -50,10 +50,6 @@ spec:
   # https://github.com/stefanprodan/podinfo/blob/master/charts/podinfo/values.yaml
   values:
     installCRDs: true    
-    redis:
-      enabled: true
-      repository: public.ecr.aws/docker/library/redis
-      tag: 7.0.6
-    ingress:
+        ingress:
       enabled: true
       className: nginx
