@@ -23,7 +23,7 @@ spec:
   releaseName: apache
   targetNamespace: apache
   interval: 50m
-    chart:
+  chart:
     spec:
       chart: apache
       sourceRef:
