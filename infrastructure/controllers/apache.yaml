@@ -20,7 +20,7 @@ metadata:
   name: apache
   namespace: flux-system
 spec:
-  releaseName: podinfo
+  releaseName: apache
   interval: 1m
   targetNamespace: apache
   chart:
