@@ -41,7 +41,7 @@ spec:
       chart: airflow
       sourceRef:
         kind: HelmRepository
-        name: podinfo
+        name: airflow
   interval: 50m
   install:
     remediation:
