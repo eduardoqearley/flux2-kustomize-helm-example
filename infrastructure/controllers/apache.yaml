@@ -28,7 +28,7 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: apache
-  interval: 50m
+
   install:
     remediation:
       retries: 3        
