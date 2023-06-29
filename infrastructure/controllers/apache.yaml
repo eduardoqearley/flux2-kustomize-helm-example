@@ -12,7 +12,6 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m
-  type: oci
   url: https://charts.bitnami.com/bitnami
 ---
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
