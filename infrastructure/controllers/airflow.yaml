@@ -28,8 +28,6 @@ metadata:
   install:
     remediation:
       retries: 3
-  # Default values
-  # https://github.com/stefanprodan/podinfo/blob/master/charts/podinfo/values.yaml
   values:
     installCRDs: true    
 
