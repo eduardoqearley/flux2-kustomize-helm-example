@@ -30,7 +30,7 @@ metadata:
       retries: 3
   values:
     installCRDs: true    
-
+#
 # spec:
 #   interval: 30m
 #   chart:
