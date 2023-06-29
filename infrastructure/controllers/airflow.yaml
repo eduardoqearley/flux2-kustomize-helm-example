@@ -20,7 +20,6 @@ metadata:
   name: airflow
   namespace: airflow  
 spec:
-
   releaseName: airflow
   chart:
     spec:
