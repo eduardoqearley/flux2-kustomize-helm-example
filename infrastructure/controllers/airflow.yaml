@@ -11,6 +11,7 @@ metadata:
   name: airflow
   namespace: airflow
 spec:
+  url: https://airflow.apache.org
   releaseName: airflow
   chart:
     spec:
