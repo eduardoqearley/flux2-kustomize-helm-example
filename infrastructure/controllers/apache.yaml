@@ -1,0 +1,15 @@
+---
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: apache
+  namespace: default
+  # annotations:
+  #   fluxcd.io/automated: "false"
+  #   fluxcd.io/tag.chart-image: semver:~4.0
+spec:
+  releaseName: apache
+  chart:
+    repository: https://charts.bitnami.com/bitnami
+    name: apache
+    # version: 9.6.3
