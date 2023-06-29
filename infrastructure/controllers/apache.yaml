@@ -25,7 +25,7 @@ spec:
   targetNamespace: apache
   chart:
     spec:
-      chart: podinafo
+      chart: apache
       sourceRef:
         kind: HelmRepository
         name: podinfo  
