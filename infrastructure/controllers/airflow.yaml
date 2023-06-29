@@ -38,7 +38,7 @@ spec:
   releaseName: airflow
   chart:
     spec:
-      chart: podinfo
+      chart: airflow
       sourceRef:
         kind: HelmRepository
         name: podinfo
