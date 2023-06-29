@@ -27,5 +27,5 @@ spec:
     spec:
       chart: apache
       sourceRef:
-        kind: HelmRepository
+        kind: OCIRepository
         name: apache  
