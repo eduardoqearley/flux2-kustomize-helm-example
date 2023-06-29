@@ -35,9 +35,6 @@ metadata:
     ingress:
       enabled: true
       className: nginx
-# metadata:
-#   name: airflow
-#   namespace: airflow
 # spec:
 #   interval: 30m
 #   chart:
