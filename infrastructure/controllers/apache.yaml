@@ -21,7 +21,7 @@ metadata:
   name: apache
   namespace: flux-system
 spec:
-  interval: 10m
+  interval: 1m
   targetNamespace: apache
   chart:
     spec:
