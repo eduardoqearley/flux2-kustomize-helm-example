@@ -33,20 +33,6 @@ spec:
     remediation:
       retries: 3        
 ---
-spec:
-  releaseName: podinfo
-  chart:
-    spec:
-      chart: podinfo
-      sourceRef:
-        kind: HelmRepository
-        name: podinfo
-  interval: 50m
-  install:
-    remediation:
-      retries: 3
-  # Default values
-  # https://github.com/stefanprodan/podinfo/blob/master/charts/podinfo/values.yaml
   values:
     redis:
       enabled: true
