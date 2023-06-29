@@ -22,6 +22,7 @@ metadata:
   name: apache
   namespace: apache
 spec:
+  targetNamespace: apache
   releaseName: apache
       sourceRef:
         kind: HelmRepository
