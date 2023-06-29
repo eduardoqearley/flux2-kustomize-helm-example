@@ -21,7 +21,6 @@ metadata:
   namespace: flux-system
 spec:
   releaseName: apache
-  interval: 1m
   targetNamespace: apache
   chart:
     spec:
