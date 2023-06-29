@@ -12,7 +12,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 10m
-  url: oci://ghcr.io/stefanprodan/manifests/podinfo
+  url: oci://registry-1.docker.io/bitnamicharts/apache
   ref:
     tag: latest
 ---
