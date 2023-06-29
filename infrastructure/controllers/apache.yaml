@@ -23,10 +23,10 @@ metadata:
   namespace: apache
 spec:
   targetNamespace: apache
-  releaseName: apache
-      sourceRef:
-        kind: HelmRepository
-        name: podinfo  
+  # releaseName: apache
+  #     sourceRef:
+  #       kind: HelmRepository
+  #       name: podinfo  
   chart:
     repository: oci://registry-1.docker.io/bitnamicharts/apache
     name: apache
