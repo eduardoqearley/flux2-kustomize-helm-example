@@ -28,4 +28,4 @@ spec:
       chart: apache
       sourceRef:
         kind: HelmRepository
-        name: podinfo
+        name: apache
