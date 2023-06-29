@@ -19,3 +19,18 @@ spec:
     repository: https://charts.bitnami.com/bitnami
     name: apache
     # version: 9.6.3
+spec:
+  releaseName: airflow
+  chart:
+    spec:
+      chart: airflow
+      sourceRef:
+        kind: HelmRepository
+        name: airflow
+  interval: 50m
+  install:
+    remediation:
+      retries: 3
+  values:
+    installCRDs: true 
+
