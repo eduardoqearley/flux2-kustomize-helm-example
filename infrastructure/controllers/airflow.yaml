@@ -46,7 +46,7 @@ metadata:
 #       interval: 12h
 #   values:
 #     installCRDs: true
-# ingress:
-#   enabled: true
-#   className: nginx
+#     ingress:
+#       enabled: true
+#       className: nginx
 # ---  
