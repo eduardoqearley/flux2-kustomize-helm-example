@@ -4,6 +4,7 @@ metadata:
   name: apache
   labels:
     toolkit.fluxcd.io/tenant: dev-team
+
 ---
 apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
