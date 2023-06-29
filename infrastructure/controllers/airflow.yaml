@@ -32,7 +32,10 @@ spec:
     remediation:
       retries: 3
   values:
-    installCRDs: true    
+    installCRDs: true 
+#     ingress:
+#       enabled: true
+#       className: nginx       
 #
 # spec:
 #   interval: 30m
