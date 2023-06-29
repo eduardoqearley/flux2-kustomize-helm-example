@@ -29,11 +29,3 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: apache  
-  # releaseName: apache
-  #     sourceRef:
-  #       kind: HelmRepository
-  #       name: podinfo  
-  chart:
-    repository: oci://registry-1.docker.io/bitnamicharts/apache
-    name: apache
-    # version: 9.6.3
