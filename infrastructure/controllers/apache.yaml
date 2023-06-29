@@ -5,6 +5,14 @@ metadata:
   labels:
     toolkit.fluxcd.io/tenant: dev-team
 ---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata: 
+  name: airflow
+  namespace: airflow  
+spec:
+  releaseName: airflow
+
 apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
