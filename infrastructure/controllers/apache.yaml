@@ -23,6 +23,12 @@ metadata:
   namespace: apache
 spec:
   targetNamespace: apache
+  chart:
+    spec:
+      chart: podinfo
+      sourceRef:
+        kind: HelmRepository
+        name: podinfo  
   # releaseName: apache
   #     sourceRef:
   #       kind: HelmRepository
