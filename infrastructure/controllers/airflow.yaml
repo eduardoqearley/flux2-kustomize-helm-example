@@ -29,7 +29,6 @@ spec:
     ingress:
       enabled: true
       className: nginx
-  url: https://airflow.apache.org
 # ---  
 # apiVersion: helm.toolkit.fluxcd.io/v2beta1
 # kind: HelmRelease
