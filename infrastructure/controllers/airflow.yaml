@@ -22,6 +22,7 @@ metadata:
 spec:
   releaseName: airflow
   targetNamespace: airflow
+
   chart:
     spec:
       chart: airflow
