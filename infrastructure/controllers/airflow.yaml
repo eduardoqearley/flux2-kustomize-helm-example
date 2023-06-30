@@ -22,7 +22,7 @@ metadata:
 spec:
   releaseName: airflow
   targetNamespace: airflow
-
+  interval: 50m
   chart:
     spec:
       chart: airflow
