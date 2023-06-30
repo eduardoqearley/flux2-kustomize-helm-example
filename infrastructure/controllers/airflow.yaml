@@ -29,7 +29,6 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: airflow
-  interval: 50m
   install:
     remediation:
       retries: 3
