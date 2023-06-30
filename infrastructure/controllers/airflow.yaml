@@ -11,7 +11,7 @@ metadata:
   name: airflow
   namespace: flux-system
 spec:
-  interval: 24h
+  interval: 1m
   url: https://airflow.apache.org
 ---  
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
