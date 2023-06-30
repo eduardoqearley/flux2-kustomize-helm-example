@@ -21,7 +21,7 @@ metadata:
   namespace: flux-system  
 spec:
   releaseName: airflow
-    targetNamespace: apache
+  targetNamespace: apache
   chart:
     spec:
       chart: airflow
