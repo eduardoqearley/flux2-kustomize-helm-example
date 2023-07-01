@@ -6,4 +6,4 @@ resources:
   # - weave-gitops.yaml
   # - airflow.yaml
   # - apache.yaml
-  - sealed-secrets.yaml
+  #- sealed-secrets.yaml
