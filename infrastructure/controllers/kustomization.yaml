@@ -5,5 +5,5 @@ resources:
   - ingress-nginx.yaml
   - weave-gitops.yaml
   # - airflow.yaml
-  - apache.yaml
+  # - apache.yaml
   - sealed-secrets.yaml
