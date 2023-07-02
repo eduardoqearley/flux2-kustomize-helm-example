@@ -42,7 +42,7 @@ metadata:
   annotations:
     kubernetes.io/ingress.class: nginx
   name: podinfo
-  namespace: testing
+  namespace: podinfo
 spec:
   rules:
   - host: k8s.eqe.io
