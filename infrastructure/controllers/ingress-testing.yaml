@@ -29,7 +29,7 @@
       # - test.eqe.io
       secretName: wildcard-tls-cert
     rules:  
-    - host: podinfo.eqe.io
+    - host: podinfo.aws.eqe.io
       http:
         paths:
         - backend:
