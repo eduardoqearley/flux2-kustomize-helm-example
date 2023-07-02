@@ -50,7 +50,7 @@ spec:
       paths:
       - backend:
           serviceName: podinfo
-          servicePort: 80
+          servicePort: 9898
         path: /
   tls:
   - hosts:
