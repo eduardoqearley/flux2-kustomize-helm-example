@@ -45,7 +45,7 @@ metadata:
   namespace: podinfo
 spec:
   rules:
-  - host: k8s.eqe.io
+  - host: podinfo.aws.eqe.io
     http:
       paths:
       - backend:
