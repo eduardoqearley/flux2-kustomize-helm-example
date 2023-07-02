@@ -49,7 +49,7 @@ spec:
     http:
       paths:
       - backend:
-          serviceName: hello-k8s
+          serviceName: podinfo
           servicePort: 80
         path: /
   tls:
