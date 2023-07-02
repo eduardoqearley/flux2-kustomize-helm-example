@@ -54,5 +54,5 @@ spec:
         path: /
   tls:
   - hosts:
-    - k8s.eqe.io
+    - podinfo.aws.eqe.io
     secretName:  wildcard-tls-cert
