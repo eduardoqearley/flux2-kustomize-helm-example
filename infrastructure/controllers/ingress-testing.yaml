@@ -41,7 +41,7 @@ kind: Ingress
 metadata:
   annotations:
     kubernetes.io/ingress.class: nginx
-  name: hello-k8s
+  name: podinfo
   namespace: testing
 spec:
   rules:
