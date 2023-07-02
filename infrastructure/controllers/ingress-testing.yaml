@@ -29,12 +29,6 @@
       # - test.eqe.io
       secretName: wildcard-tls-cert
     rules:  
-    - host: echo1.eqe.io
-      http:
-        paths:
-        - backend:
-            serviceName: echo1
-            servicePort: 80
     - host: podinfo.eqe.io
       http:
         paths:
