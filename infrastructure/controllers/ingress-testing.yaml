@@ -1,0 +1,78 @@
+#TODO convert this to a helm chart
+  apiVersion: extensions/v1beta1
+  kind: Ingress
+  metadata:
+    annotations:
+      # certmanager.k8s.io/cluster-issuer: letsencrypt-prod-cert
+      # external-dns.alpha.kubernetes.io/hostname: "k8s.eqe.io,echo1.eqe.io,podinfo.eqe.io"
+      kubernetes.io/ingress.class:  nginx
+      # kubernetes.io/ingress.allow-http: "true"
+      # nginx.ingress.kubernetes.io/ssl-redirect: "true"
+      # ingress.kubernetes.io/ssl-redirect: "true"
+      # nginx.ingress.kubernetes.io/force-ssl-redirect: "true"      
+      # nginx.ingress.kubernetes.io/server-tokens: "false"
+      # nginx.ingress.kubernetes.io/redirect-to-https: "true"
+      # # nginx.ingress.kubernetes.io/proxy-body-size: "10m"
+      # # nginx.ingress.kubernetes.io/client-body-buffer-size: "256k"
+      # nginx.ingress.kubernetes.io/hsts: "true"  
+      # nginx.ingress.kubernetes.io/use-proxy-protocol: "false"
+      # nginx.ingress.kubernetes.io/use-forwarded-headers: "true"
+      # nginx.ingress.kubernetes.io/proxy-real-ip-cidr: 10.0.0.0/16
+    name: ingress-testing
+    namespace: podinfo
+  spec:
+    tls:
+    - hosts:
+      - echo1.eqe.io
+      - podinfo.eqe.io
+      - api.eqe.io
+      - test.eqe.io
+      secretName: wildcard-tls-cert
+    rules:  
+    - host: echo1.eqe.io
+      http:
+        paths:
+        - backend:
+            serviceName: echo1
+            servicePort: 80
+    - host: podinfo.eqe.io
+      http:
+        paths:
+        - backend:
+            serviceName: podinfo
+            servicePort: 9898  
+    - host: test.eqe.io
+      http:
+        paths:
+        - path: /pi
+          backend:
+            serviceName: echo1
+            servicePort: 80   
+    - host: api.eqe.io
+      http:
+        paths:
+        - path: /pi
+          backend:
+            serviceName: echo1
+            servicePort: 80    
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    kubernetes.io/ingress.class: nginx
+  name: hello-k8s
+  namespace: testing
+spec:
+  rules:
+  - host: k8s.eqe.io
+    http:
+      paths:
+      - backend:
+          serviceName: hello-k8s
+          servicePort: 80
+        path: /
+  tls:
+  - hosts:
+    - k8s.eqe.io
+    secretName:  wildcard-tls-cert
