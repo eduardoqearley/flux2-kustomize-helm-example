@@ -23,7 +23,7 @@
   spec:
     tls:
     - hosts:
-      - echo1.eqe.io
+      # - echo1.eqe.io
       - podinfo.eqe.io
       - api.eqe.io
       - test.eqe.io
