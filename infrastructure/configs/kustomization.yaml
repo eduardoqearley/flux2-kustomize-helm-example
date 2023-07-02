@@ -3,4 +3,4 @@ kind: Kustomization
 resources:
   - cluster-issuers.yaml
   - network-policies.yaml
-  - podinfo-
+  - podinfo-wildcard-tls-cert.yaml
