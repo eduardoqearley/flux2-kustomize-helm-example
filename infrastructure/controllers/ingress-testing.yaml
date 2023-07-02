@@ -34,21 +34,7 @@
         paths:
         - backend:
             serviceName: podinfo
-            servicePort: 9898  
-    - host: test.eqe.io
-      http:
-        paths:
-        - path: /pi
-          backend:
-            serviceName: echo1
-            servicePort: 80   
-    - host: api.eqe.io
-      http:
-        paths:
-        - path: /pi
-          backend:
-            serviceName: echo1
-            servicePort: 80    
+            servicePort: 9898    
 ---
 apiVersion: extensions/v1beta1
 kind: Ingress
