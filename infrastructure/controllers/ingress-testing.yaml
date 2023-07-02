@@ -25,8 +25,8 @@
     - hosts:
       # - echo1.eqe.io
       - podinfo.eqe.io
-      - api.eqe.io
-      - test.eqe.io
+      # - api.eqe.io
+      # - test.eqe.io
       secretName: wildcard-tls-cert
     rules:  
     - host: echo1.eqe.io
