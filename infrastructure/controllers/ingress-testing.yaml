@@ -24,7 +24,7 @@
     tls:
     - hosts:
       # - echo1.eqe.io
-      - podinfo.eqe.io
+      - podinfo.aws.eqe.io
       # - api.eqe.io
       # - test.eqe.io
       secretName: wildcard-tls-cert
