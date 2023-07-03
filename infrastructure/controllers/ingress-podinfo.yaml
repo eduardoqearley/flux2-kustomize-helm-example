@@ -21,13 +21,13 @@ spec:
             name: podinfo
             port: 
               number: 9898
-  - host: k8s.aws.eqe.io
-    http:
-      paths:
-      - path: /podinfo
-        pathType: Exact
-        backend:
-          service:
-            name: podinfo
-            port: 
-              number: 9898      
+  # - host: k8s.aws.eqe.io
+  #   http:
+  #     paths:
+  #     - path: /podinfo
+  #       pathType: Exact
+  #       backend:
+  #         service:
+  #           name: podinfo
+  #           port: 
+  #             number: 9898      
