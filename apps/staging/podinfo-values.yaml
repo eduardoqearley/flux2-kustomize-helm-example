@@ -13,6 +13,10 @@ spec:
     ingress:
       enabled: true
       className: ingress-nginx  
+  tls:
+  - hosts:
+      - k8s.aws.eqe.io
+    secretName: wildcard-tls-cert      
     # ingress:
     #   hosts:
     #     - host: k8s.aws.eqe.io
