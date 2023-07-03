@@ -12,7 +12,7 @@ spec:
   values:
     ingress:
       enabled: true
-      className: nginx  
+      className: ingress-nginx  
     # ingress:
     #   hosts:
     #     - host: k8s.aws.eqe.io
