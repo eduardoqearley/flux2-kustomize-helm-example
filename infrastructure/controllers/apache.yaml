@@ -37,15 +37,15 @@ spec:
       enabled: true
       className: nginx
       - host: k8s.aws.eqe.io
-      http:
-        paths:
-        - path: /
-          pathType: Exact
-          backend:
-            service:
-              name: apache
-              port: 
-                number: 80      
+        http:
+          paths:
+          - path: /
+            pathType: Exact
+            backend:
+              service:
+                name: apache
+                port: 
+                  number: 80      
 
     tls:
     - hosts:
