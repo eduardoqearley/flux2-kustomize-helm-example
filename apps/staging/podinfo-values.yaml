@@ -15,4 +15,4 @@ spec:
         - host: k8s.aws.eqe.io
           paths:
             - path: /
-              pathType: ImplementationSpecific
+              pathType: Exact
