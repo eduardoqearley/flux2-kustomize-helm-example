@@ -8,7 +8,7 @@ metadata:
 spec:
   tls:
   - hosts:
-      - https-example.foo.com
+      - k8s.aws.eqe.io
     secretName: wildcard-tls-cert
   rules:
   - host: k8s.aws.eqe.io
