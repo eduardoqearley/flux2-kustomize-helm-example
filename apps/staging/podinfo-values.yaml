@@ -21,25 +21,7 @@ spec:
         - host: k8s.aws.eqe.io
           paths:
             - path: /
-              pathType: Exact
-        - host: k8s.aws.eqe.io
-          paths:
-              - path: /
-                pathType: Exact
-                backend:
-                  service:
-                    name: podinfo
-                    port: 
-                      number: 9898
-          - host: k8s.aws.eqe.io
-            paths:
-              - path: /podinfo
-                pathType: Exact
-                backend:
-                  service:
-                    name: podinfo
-                    port: 
-                      number: 9898                    
+              pathType: Exact                
       # tls:
       #   - hosts:
       #     - k8s.aws.eqe.io
