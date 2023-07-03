@@ -11,7 +11,7 @@ spec:
     enable: false
   values:
     ingress:
-      enabled: true
+      enabled: false
       className: ingress-nginx  
       tls:
       - hosts:
