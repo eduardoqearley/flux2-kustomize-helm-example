@@ -40,13 +40,3 @@ spec:
     - hosts:
         - k8s.aws.eqe.io
       secretName: wildcard-tls-cert
-    - host: k8s.aws.eqe.io
-      http:
-        paths:
-        - path: /
-          pathType: Exact
-          backend:
-            service:
-              name: apache
-              port: 
-                number: 80      
