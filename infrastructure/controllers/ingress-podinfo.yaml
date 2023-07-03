@@ -6,6 +6,7 @@ metadata:
   name: podinfo
   namespace: podinfo
 spec:
+
   rules:
   - host: k8s.aws.eqe.io
     http:
