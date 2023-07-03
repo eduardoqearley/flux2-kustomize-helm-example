@@ -36,7 +36,8 @@ spec:
     ingress:
       enabled: true
       className: nginx
-      hosts: k8s.aws.eqe.io
+      hosts: 
+      k8s.aws.eqe.io
         http:
           paths:
           - path: /
