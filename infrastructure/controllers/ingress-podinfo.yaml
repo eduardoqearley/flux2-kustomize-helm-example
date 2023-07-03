@@ -4,7 +4,7 @@ metadata:
   annotations:
     kubernetes.io/ingress.class: ingress-nginx
   name: podinfo
-  namespace: ingress-nginx
+  namespace: podinfo
 spec:
   rules:
   - host: podinfo.aws.eqe.io
