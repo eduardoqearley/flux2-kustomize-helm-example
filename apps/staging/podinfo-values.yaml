@@ -33,7 +33,7 @@ spec:
                       number: 9898
           - host: k8s.aws.eqe.io
             paths:
-              - path: /podinfo
+            - path: /podinfo
                 pathType: Exact
                 backend:
                   service:
