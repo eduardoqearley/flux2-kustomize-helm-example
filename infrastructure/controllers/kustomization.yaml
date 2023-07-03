@@ -7,4 +7,4 @@ resources:
   # - airflow.yaml
   - apache.yaml
   - sealed-secrets.yaml
-  # - ingress-podinfo.yaml
+  - ingress-podinfo.yaml
