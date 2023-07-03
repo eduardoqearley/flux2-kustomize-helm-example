@@ -37,7 +37,7 @@ spec:
       enabled: true
       className: nginx
       hosts: 
-      k8s.aws.eqe.io
+      - host: k8s.aws.eqe.io
         http:
           paths:
           - path: /
