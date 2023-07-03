@@ -26,8 +26,7 @@ spec:
           service:
             name: podinfo
             port: 
-              number: 9898
-        
+              number: 9898      
   tls:
   - hosts:
     - k8s.aws.eqe.io
