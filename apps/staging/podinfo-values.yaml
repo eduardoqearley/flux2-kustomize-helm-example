@@ -17,7 +17,8 @@ spec:
       - hosts:
           - k8s.aws.eqe.io
         secretName: wildcard-tls-cert 
-             
+      hosts:
+                   
     # ingress:
     #   hosts:
     #     - host: k8s.aws.eqe.io
