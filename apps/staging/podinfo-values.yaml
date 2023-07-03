@@ -16,3 +16,4 @@ spec:
           paths:
             - path: /
               pathType: Exact
+              
