@@ -47,7 +47,6 @@ spec:
                 name: apache
                 port: 
                   number: 80      
-
     tls:
     - hosts:
         - k8s.aws.eqe.io
