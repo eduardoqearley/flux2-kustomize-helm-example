@@ -18,26 +18,26 @@ spec:
           - k8s.aws.eqe.io
         secretName: wildcard-tls-cert 
       hosts:
-- host: k8s.aws.eqe.io
-    http:
-      paths:
-      - path: /
-        pathType: Exact
-        backend:
-          service:
-            name: podinfo
-            port: 
-              number: 9898
-  - host: k8s.aws.eqe.io
-    http:
-      paths:
-      - path: /podinfo
-        pathType: Exact
-        backend:
-          service:
-            name: podinfo
-            port: 
-              number: 9898                         
+      - host: k8s.aws.eqe.io
+          http:
+            paths:
+            - path: /
+              pathType: Exact
+              backend:
+                service:
+                  name: podinfo
+                  port: 
+                    number: 9898
+        - host: k8s.aws.eqe.io
+          http:
+            paths:
+            - path: /podinfo
+              pathType: Exact
+              backend:
+                service:
+                  name: podinfo
+                  port: 
+                    number: 9898                         
     # ingress:
     #   hosts:
     #     - host: k8s.aws.eqe.io
