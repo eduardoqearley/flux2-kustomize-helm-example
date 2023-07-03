@@ -22,6 +22,7 @@ spec:
           paths:
             - path: /
               pathType: Exact
+              
       # tls:
       #   - hosts:
       #     - k8s.aws.eqe.io
