@@ -36,3 +36,19 @@ spec:
     ingress:
       enabled: true
       className: nginx
+spec:
+  tls:
+  - hosts:
+      - k8s.aws.eqe.io
+    secretName: wildcard-tls-cert
+  rules:
+  - host: k8s.aws.eqe.io
+    http:
+      paths:
+      - path: /podinfo
+        pathType: Exact
+        backend:
+          service:
+            name: podinfo
+            port: 
+              number: 9898      
