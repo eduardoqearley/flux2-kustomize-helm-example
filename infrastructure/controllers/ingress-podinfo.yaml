@@ -12,7 +12,7 @@ spec:
       paths:
       - backend:
           service:
-            Name: podinfo
+            name: podinfo
             port: 9898
         path: /
   tls:
