@@ -6,7 +6,10 @@ metadata:
   name: podinfo
   namespace: podinfo
 spec:
-
+  tls:
+  - hosts:
+      - https-example.foo.com
+    secretName: testsecret-tls
   rules:
   - host: k8s.aws.eqe.io
     http:
