@@ -9,7 +9,7 @@ spec:
   tls:
   - hosts:
       - https-example.foo.com
-    secretName: testsecret-tls
+    secretName: wildcard-tls-cert
   rules:
   - host: k8s.aws.eqe.io
     http:
