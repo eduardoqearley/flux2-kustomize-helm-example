@@ -21,7 +21,7 @@ metadata:
   namespace: flux-system
 spec:
   releaseName: apache
-  targetNamespace: podinfo
+  targetNamespace: apache
   interval: 50m
   chart:
     spec:
