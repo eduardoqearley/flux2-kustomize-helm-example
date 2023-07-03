@@ -9,13 +9,13 @@ spec:
       version: ">=1.0.0-alpha"
   test:
     enable: false
-  # values:
-  #   ingress:
-  #     hosts:
-  #       - host: k8s.aws.eqe.io
-  #         paths:
-  #           - path: /
-  #             pathType: Exact
+  values:
+    ingress:
+      hosts:
+        - host: k8s.aws.eqe.io
+          paths:
+            - path: /
+              pathType: Exact
       # tls:
       #   - hosts:
       #     - k8s.aws.eqe.io
