@@ -10,7 +10,7 @@ spec:
   - host: podinfo.aws.eqe.io
     http:
       paths:
-      - path: /
+      - path: /podinfo
         pathType: Prefix
         backend:
           service:
