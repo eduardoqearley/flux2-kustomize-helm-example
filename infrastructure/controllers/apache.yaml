@@ -35,7 +35,7 @@ spec:
   values:
     autoscaling:
       enabled: true
-      minReplicas: 3
+      minReplicas: 5
       maxReplicas: 11
       targetCPU: 50
       targetMemory: 50  
