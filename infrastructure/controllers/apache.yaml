@@ -34,11 +34,11 @@ spec:
       retries: 3        
   values:
   autoscaling:
-  enabled: false
-  minReplicas: 1
-  maxReplicas: 11
-  targetCPU: 50
-  targetMemory: 50  
+    enabled: false
+    minReplicas: 1
+    maxReplicas: 11
+    targetCPU: 50
+    targetMemory: 50  
     ingress:
       enabled: true
       className: ingress-nginx  
