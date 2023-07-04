@@ -24,7 +24,7 @@ spec:
               pathType: Exact
       tls:
        - secretName: chart-example-tls
-        hosts:
+          hosts:
           - chart-example.local              
       # className: ingress-nginx  
       # hosts:
