@@ -22,10 +22,7 @@ spec:
           paths:
             - path: /podinfo
               pathType: Exact
-      tls: []
-      #  - secretName: chart-example-tls
-      #    hosts:
-      #      - chart-example.local
+
     ingress:
       enabled: true
       className: ingress-nginx  
