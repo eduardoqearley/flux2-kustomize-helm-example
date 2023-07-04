@@ -43,5 +43,5 @@ spec:
       enabled: true
       ingressClassName: ingress-nginx  
       pathType: Specific
-      host:  k8s.aws.eqe.io
+      hostname:  k8s.aws.eqe.io
       path: /
