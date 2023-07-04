@@ -46,5 +46,4 @@ spec:
       hostname:  k8s.aws.eqe.io
       path: /
       annotations:
-        kubernetes.io/ingress.class: ingress-nginx  
-  ##   cert-manager.io/cluster-issuer: cluster-issuer-name      
+        kubernetes.io/ingress.class: ingress-nginx      
