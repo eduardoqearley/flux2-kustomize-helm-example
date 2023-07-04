@@ -24,4 +24,4 @@ spec:
               pathType: Exact
             - backend:
               serviceName: podinfo
-              servicePort: 8080     
+              servicePort: 9898     
