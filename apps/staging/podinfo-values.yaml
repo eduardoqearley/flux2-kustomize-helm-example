@@ -28,13 +28,4 @@ spec:
       tls:
         - secretName: wildcard-tls-cert
           hosts:
-          - k8s.aws.eqe.io              
-      # className: ingress-nginx  
-      # hosts:
-      #   - host: k8s.aws.eqe.io
-      #     paths:
-      #       - path: /
-      #         pathType: Exact
-      #       - backend:
-      #         serviceName: podinfo
-      #         servicePort: 9898     
+          - k8s.aws.eqe.io                 
