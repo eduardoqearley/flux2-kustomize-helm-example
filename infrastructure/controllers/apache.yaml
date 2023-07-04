@@ -34,8 +34,8 @@ spec:
       retries: 3        
   values:
     autoscaling:
-      enabled: false
-      minReplicas: 1
+      enabled: true
+      minReplicas: 3
       maxReplicas: 11
       targetCPU: 50
       targetMemory: 50  
