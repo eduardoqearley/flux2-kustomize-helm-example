@@ -47,6 +47,6 @@ spec:
       path: /
       hosts:
         - name: example.local
-        path: /      
+          path: /      
       annotations:
         kubernetes.io/ingress.class: ingress-nginx      
