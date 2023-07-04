@@ -18,7 +18,7 @@ spec:
         kubernetes.io/ingress.class: ingress-nginx 
         kubernetes.io/tls-acme: "true"
       hosts:
-        - host: podinfo.local
+        - host: k8s.aws.eqe.io
           paths:
             - path: /
               pathType: ImplementationSpecific
