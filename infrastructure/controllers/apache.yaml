@@ -41,7 +41,7 @@ spec:
       targetMemory: 50  
     ingress:
       enabled: true
-      className: ingress-nginx  
+      ingressClassName: ingress-nginx  
       hosts: 
       - host: k8s.aws.eqe.io
         http:
