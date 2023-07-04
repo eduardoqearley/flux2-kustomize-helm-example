@@ -21,7 +21,7 @@ spec:
         - host: k8s.aws.eqe.io
           paths:
             - path: /podinfo
-              pathType: ImplementationSpecific
+              pathType: Exact
       tls: []
       #  - secretName: chart-example-tls
       #    hosts:
