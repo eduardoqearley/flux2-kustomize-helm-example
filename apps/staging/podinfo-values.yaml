@@ -22,6 +22,9 @@ spec:
           paths:
             - path: /
               pathType: Exact
+      #       - backend:
+      #         serviceName: podinfo
+      #         servicePort: 9898                  
       tls:
         - secretName: wildcard-tls-cert
           hosts:
