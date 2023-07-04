@@ -23,5 +23,5 @@ spec:
             - path: /
               pathType: Exact
               - backend:
-            serviceName: airflow
-            servicePort: 8080     
+              serviceName: airflow
+              servicePort: 8080     
