@@ -28,6 +28,6 @@ spec:
         pathType: Exact
         backend:
           service:
-            name: podinfo
+            name: apache
             port: 
               number: 80      
