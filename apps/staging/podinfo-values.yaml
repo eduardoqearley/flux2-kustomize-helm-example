@@ -17,8 +17,8 @@ spec:
   #     - hosts:
   #         - k8s.aws.eqe.io
   #       secretName: wildcard-tls-cert 
-  #     hosts:
-  #       - host: k8s.aws.eqe.io
-  #         paths:
-  #           - path: /
-  #             pathType: Exact                
+      hosts:
+        - host: k8s.aws.eqe.io
+          paths:
+            - path: /
+              pathType: Exact                
