@@ -13,7 +13,7 @@ spec:
     ingress:
       enabled: true
       className: ingress-nginx  
-      - host: k8s.aws.eqe.io
+      -host: k8s.aws.eqe.io
           paths:
             - path: /
               pathType: Exact
