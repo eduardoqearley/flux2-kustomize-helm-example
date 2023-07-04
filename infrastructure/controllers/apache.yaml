@@ -45,6 +45,6 @@ spec:
       pathType: Specific
       hostname:  k8s.aws.eqe.io
       path: /
-  ## annotations:
+      annotations:
   ##   kubernetes.io/ingress.class: nginx
   ##   cert-manager.io/cluster-issuer: cluster-issuer-name      
