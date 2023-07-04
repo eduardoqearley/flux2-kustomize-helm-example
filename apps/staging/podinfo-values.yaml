@@ -20,7 +20,7 @@ spec:
       hosts:
         - host: k8s.aws.eqe.io
           paths:
-            - path: /
+            - path: /podinfo
               pathType: Exact
             - backend:
               serviceName: podinfo
