@@ -39,7 +39,7 @@ spec:
       maxReplicas: 11
       targetCPU: 50
       targetMemory: 50  
-      ingress:
+    ingress:
       enabled: true
       className: ingress-nginx  
       hosts: 
