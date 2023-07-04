@@ -33,7 +33,7 @@ spec:
     remediation:
       retries: 3        
   values:
-autoscaling:
+  autoscaling:
   enabled: false
   minReplicas: 1
   maxReplicas: 11
