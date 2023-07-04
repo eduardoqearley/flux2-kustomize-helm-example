@@ -46,7 +46,7 @@ spec:
       hostname:  k8s.aws.eqe.io
       path: /
       hosts:
-        - name: example.local
+        - name: k8s.aws.eqe.io
           path: /      
       annotations:
         kubernetes.io/ingress.class: ingress-nginx      
