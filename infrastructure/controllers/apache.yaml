@@ -45,5 +45,8 @@ spec:
       pathType: Specific
       hostname:  k8s.aws.eqe.io
       path: /
+  ## hosts:
+  ##   - name: example.local
+  ##     path: /      
       annotations:
         kubernetes.io/ingress.class: ingress-nginx      
