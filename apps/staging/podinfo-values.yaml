@@ -14,7 +14,7 @@ spec:
     ingress:
       enabled: false
       className: ""
-      annotations: {}
+      annotations: {
       kubernetes.io/ingress.class: ingress-nginx 
         # kubernetes.io/tls-acme: "true"
       hosts:
