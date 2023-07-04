@@ -22,6 +22,7 @@ spec:
           paths:
             - path: /
               pathType: Exact
+      tls: []              
       # className: ingress-nginx  
       # hosts:
       #   - host: k8s.aws.eqe.io
