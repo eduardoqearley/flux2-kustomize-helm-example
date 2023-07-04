@@ -21,4 +21,5 @@ spec:
         - host: k8s.aws.eqe.io
           paths:
             - path: /
-              pathType: Exact                
+              pathType: Exact     
+                         
