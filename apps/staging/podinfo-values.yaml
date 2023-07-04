@@ -23,7 +23,7 @@ spec:
             - path: /
               pathType: Exact
       tls:
-       - secretName: wildcard-tls-cert
+      - secretName: wildcard-tls-cert
           hosts:
           - chart-example.local              
       # className: ingress-nginx  
