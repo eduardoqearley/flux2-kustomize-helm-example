@@ -22,9 +22,6 @@ spec:
           paths:
             - path: /podinfo
               pathType: Exact
-
-    ingress:
-      enabled: true
       className: ingress-nginx  
       hosts:
         - host: k8s.aws.eqe.io
