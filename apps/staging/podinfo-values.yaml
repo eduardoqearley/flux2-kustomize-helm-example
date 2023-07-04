@@ -10,7 +10,7 @@ spec:
   test:
     enable: false
   values:
-    replicaCount: 4
+    replicaCount: 8
     ingress:
       enabled: true
       className: ingress-nginx
