@@ -25,7 +25,7 @@ spec:
       tls:
         - secretName: wildcard-tls-cert
           hosts:
-          - chart-example.local              
+          - k8s.aws.eqe.io              
       # className: ingress-nginx  
       # hosts:
       #   - host: k8s.aws.eqe.io
