@@ -45,7 +45,7 @@ spec:
       pathType: Specific
       hostname:  k8s.aws.eqe.io
       path: /
-  ## hosts:
+      hosts:
   ##   - name: example.local
   ##     path: /      
       annotations:
