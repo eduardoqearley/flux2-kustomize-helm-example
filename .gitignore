@@ -1,3 +1,8 @@
 # GitHub actions binaries
 bin/
 install.sh
+.DS_Store
+.github/.DS_Store
+apps/.DS_Store
+clusters/.DS_Store
+infrastructure/.DS_Store
